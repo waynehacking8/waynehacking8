@@ -28,7 +28,7 @@ serving, and privacy-preserving ML.
 | --- | --- |
 | **[nim-agent-blueprint](https://github.com/waynehacking8/nim-agent-blueprint)** | Agentic RAG reference architecture on NVIDIA NIM microservices — plan → retrieve → validate loop with an eval + observability harness. |
 | **[trtllm-triton-serving](https://github.com/waynehacking8/trtllm-triton-serving)** | Production-style LLM serving on TensorRT-LLM tensor-parallel across H100, benchmarked head-to-head vs vLLM with a controlled methodology. |
-| **[nccl-collectives-bench](https://github.com/waynehacking8/nccl-collectives-bench)** | NCCL collective benchmarks (all-reduce / all-gather / reduce-scatter) on 4× H100 NVLink — bus-bandwidth vs the theoretical link budget. |
+| **[nccl-collectives-bench](https://github.com/waynehacking8/nccl-collectives-bench)** | NCCL collective benchmarks (all-reduce / all-gather / reduce-scatter) on a 4-GPU slice of an 8× H100 NVSwitch host — bus bandwidth vs the theoretical NVLink budget. |
 | **[federated-learning-lab](https://github.com/waynehacking8/federated-learning-lab)** | From-scratch federated learning (FedAvg / FedProx / SCAFFOLD), DP-SGD & secure aggregation, literature-cross-validated with honest negative results. |
 
 ## Research
