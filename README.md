@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>GPU Performance Engineer &amp; AI Systems Builder</b><br>
-  CUDA kernel optimization, LLM inference, multi-GPU serving, privacy-preserving ML.
+  CUDA kernel optimization, LLM inference, multi-GPU serving, AI security, privacy-preserving ML.
 </p>
 
 <p align="center">
@@ -24,6 +24,7 @@ MS Computer Science @ NTUST. I work at the intersection of GPU systems and ML �
 | **[inference-kernel-cookbook](https://github.com/waynehacking8/inference-kernel-cookbook)** | LLM inference techniques from scratch — Flash Attention, KV Cache, Paged Attention. | 81x speedup, 1000x memory reduction |
 | **[trtllm-triton-serving](https://github.com/waynehacking8/trtllm-triton-serving)** | TensorRT-LLM vs vLLM head-to-head on H100 — 12 studies reproducing NVIDIA's 27.7k tok/s. | 100.3% of published benchmark |
 | **[nccl-collectives-bench](https://github.com/waynehacking8/nccl-collectives-bench)** | NCCL collective benchmarks on 8×H100 NVSwitch — bandwidth, latency, NVLS, TP-decode ceiling. | 365 GB/s (77% NVLink budget) |
+| **[llm-security-lab](https://github.com/waynehacking8/llm-security-lab)** | LLM security from first principles — prompt extraction, injection, model stealing. Attack + defense. | 19 leaks → 2 with defense |
 
 ## Other work
 
