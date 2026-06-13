@@ -1,27 +1,58 @@
 <h1 align="center">Wei Cheng (Wayne) Chiu &nbsp;·&nbsp; 邱偉誠</h1>
 
 <p align="center">
-  <b>GPU Performance Engineer &amp; AI Systems Builder</b><br>
-  CUDA kernel optimization, LLM inference, multi-GPU serving, AI security, privacy-preserving ML.
+  <b>GPU Performance Engineer · LLM Inference Systems</b><br>
+  CUDA / Tensor-Core kernels · consumer-Blackwell (SM120) enablement on real RTX PRO 6000 ·
+  upstream contributor to PyTorch, vLLM, SGLang, FlashInfer &amp; TensorRT-LLM.
 </p>
 
 <p align="center">
   <a href="https://waynehacking8.github.io/">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/wei-cheng-chiu">LinkedIn</a> ·
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Awaynehacking8+archived%3Afalse">My PRs</a> ·
   <a href="https://x.com/WEICHENGCH52824">X / Twitter</a> ·
   <a href="mailto:waynehacking8@gmail.com">Email</a>
 </p>
 
 ---
 
-MS Computer Science @ NTUST. I work at the intersection of GPU systems and ML — writing CUDA kernels, benchmarking inference stacks, and building production AI systems on the NVIDIA platform.
+MS Computer Science @ NTUST. I work at the intersection of GPU systems and ML — writing CUDA kernels,
+benchmarking inference stacks, and shipping fixes upstream to the LLM-serving ecosystem. My niche:
+**early consumer-Blackwell (SM120 / SM121) enablement, validated on a real RTX PRO 6000 96GB** — the kernels and
+dispatch paths most repos can't yet test because almost no one has the hardware.
 
-## Flagship projects
+## 🔧 Open-source contributions
+
+Across the LLM-inference stack — **3 merged/landed · 35 in review** — see the live
+[**merged-PR feed**](https://github.com/pulls?q=is%3Apr+author%3Awaynehacking8+is%3Amerged+archived%3Afalse).
+
+**Merged / landed in main**
+
+| Project | PR | What it fixes |
+| --- | --- | --- |
+| **PyTorch** | [#187216](https://github.com/pytorch/pytorch/pull/187216) | `[CUDA][NCCL]` `nccl.broadcast` was dropping its `root` argument — landed in `main` (`c3c33fd`) |
+| **vLLM** | [#45460](https://github.com/vllm-project/vllm/pull/45460) | Tokenizer now survives pickling out of `maybe_make_thread_pool` |
+| **vLLM** | [#45376](https://github.com/vllm-project/vllm/pull/45376) | Streaming `message_start` event sets `type`/`role` explicitly |
+
+**In review** — selected, grouped by project (counts are live PRs):
+
+| Project | # | Representative work |
+| --- | :-: | --- |
+| **vLLM** | 10 | NVFP4 MoE per-expert scale validation · FP8 MoE+LoRA routed to Marlin · async-KV-load scheduling fix |
+| **SGLang** | 9 | SM120/SM121 dispatch for `int8_scaled_mm` & `fp8_blockwise_scaled_grouped_mm` · SM120 shared-mem-safe attention block size |
+| **FlashInfer** | 8 | Multi-CTA radix top-k stream hangs on SM120/121 · NVFP4 global-scale threading through the unified MoE API |
+| **NVIDIA TensorRT-LLM** | 3 | CuteDSL MoE ghost-token & global-index fixes · DeepSeek-V2-Lite `e_score_correction_bias` guard |
+| **Dynamo** | 3 | KV-router cancels in-flight recovery on worker removal · RTX PRO 6000 Blackwell GPU SKU |
+| **torchao** | 2 | PT2E/X86 annotation fallback for reused `nn.Linear`/`nn.Conv2d` with fusable post-ops |
+
+> Most SM120 work above is reproduced and validated on my own RTX PRO 6000 96GB Blackwell box.
+
+## 🚀 Flagship projects
 
 | Project | What it is | Key number |
 | --- | --- | --- |
 | **[tensor-core-from-scratch](https://github.com/waynehacking8/tensor-core-from-scratch)** | 10 progressive CUDA matmul kernels from naive to tensor cores on Blackwell. | 100 TFLOPS (34% of cuBLAS HGEMM) |
-| **[inference-kernel-cookbook](https://github.com/waynehacking8/inference-kernel-cookbook)** | LLM inference techniques from scratch — Flash Attention, KV Cache, Paged Attention. | 81x speedup, 1000x memory reduction |
+| **[inference-kernel-cookbook](https://github.com/waynehacking8/inference-kernel-cookbook)** | LLM inference techniques from scratch — Flash Attention, KV Cache, Paged Attention. | 81× speedup, 1000× memory reduction |
 | **[trtllm-triton-serving](https://github.com/waynehacking8/trtllm-triton-serving)** | TensorRT-LLM vs vLLM head-to-head on H100 — 12 studies reproducing NVIDIA's 27.7k tok/s. | 100.3% of published benchmark |
 | **[nccl-collectives-bench](https://github.com/waynehacking8/nccl-collectives-bench)** | NCCL collective benchmarks on 8×H100 NVSwitch — bandwidth, latency, NVLS, TP-decode ceiling. | 365 GB/s (77% NVLink budget) |
 | **[llm-security-lab](https://github.com/waynehacking8/llm-security-lab)** | LLM security from first principles — prompt extraction, injection, model stealing. Attack + defense. | 19 leaks → 2 with defense |
@@ -42,8 +73,8 @@ MS Computer Science @ NTUST. I work at the intersection of GPU systems and ML �
 
 ## Stack
 
-`CUDA` · `Tensor Cores` · `PTX` · `Python` · `PyTorch` · `TensorRT-LLM` · `Triton Inference Server` · `NCCL` ·
-`vLLM` · `NVIDIA NIM` · `LangGraph` · `Docker` · `Differential Privacy` · `Federated Learning`
+`CUDA` · `Tensor Cores` · `PTX` · `SM120 / Blackwell` · `Python` · `PyTorch` · `TensorRT-LLM` · `vLLM` · `SGLang` ·
+`FlashInfer` · `Triton Inference Server` · `NCCL` · `NVFP4 / FP8 quantization` · `Differential Privacy` · `Federated Learning`
 
 ---
 
