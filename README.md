@@ -2,8 +2,8 @@
 
 <p align="center">
   <b>GPU Performance Engineer · LLM Inference Systems</b><br>
-  CUDA / Tensor-Core kernels · consumer-Blackwell (SM120) enablement on real RTX PRO 6000 ·
-  upstream contributor to PyTorch, vLLM, SGLang, FlashInfer &amp; TensorRT-LLM.
+  CUDA / Tensor-Core kernels · consumer-Blackwell (SM120) enablement on a real RTX PRO 6000 ·
+  code merged into PyTorch &amp; vLLM, with 35 PRs in review across the LLM-serving stack.
 </p>
 
 <p align="center">
