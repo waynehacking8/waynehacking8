@@ -5,15 +5,22 @@ Aligned 1:1 with the GitHub profile so SEO keywords stack:
 
 ---
 
-## 1. Headline  (≤220 chars — current one has no contributions/niche signal)
+## 1. Headline  (≤220 chars) — LIVE
 
 ```
-GPU Performance Engineer · LLM Inference | Merged into PyTorch & vLLM · 35 PRs in review (SGLang, FlashInfer, TensorRT-LLM) | CUDA / Tensor-Core kernels · consumer-Blackwell SM120 on real RTX PRO 6000 | NTUST CS MS
+GPU Performance Engineer | LLM Inference & CUDA / Tensor-Core Kernels | NVIDIA Blackwell (SM120) · vLLM · TensorRT-LLM | MS CS @ NTUST
 ```
 
-Why: recruiters search LinkedIn by keyword — "CUDA", "vLLM", "TensorRT-LLM", "Blackwell"
-all now sit in the highest-weighted field. The niche (SM120 on real hardware) is the part nobody can copy.
-Note the honest split — **merged** is only PyTorch + vLLM; everything else is **in review**. Don't blur the two.
+Convention (from real peers in this niche — Akshith Macharla, Visharad Ravi, Faizan Azeez):
+**`Role | focus areas | tech stack | degree`**. That's it.
+
+What practitioners do **NOT** put in a headline (and why the first draft was wrong):
+- ❌ contribution counts / status — "Merged into X", "35 PRs in review". Reads as a status report, not a person.
+- ❌ specific repo names as a list with merge state. Keep tech as *keywords* (vLLM, TensorRT-LLM), not a scoreboard.
+- ❌ hardware brags — "on real RTX PRO 6000" belongs in About, not the headline.
+
+The SM120/Blackwell edge still appears — as a **searchable keyword**, which is how it reads as competence rather than boasting.
+Save the contribution counts (3 merged / 35 in review) for About, Featured and Experience, where context makes them credible.
 
 ---
 
