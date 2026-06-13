@@ -55,27 +55,14 @@ Add these as links (LinkedIn auto-pulls title + thumbnail):
 
 ---
 
-## 4. Experience — new entry
+## 4. Experience — ❌ NOT USED (deliberately)
 
-```
-Title:        Open-Source Contributor — LLM Inference Stack
-Employment:   Self-employed / Open source
-Dates:        Jan 2026 – Present
-Location:     Remote
-```
+A standalone "Open-Source Contributor — Self-employed" Experience entry was tried and **removed by Wayne**.
+Reason: listing OSS contributions as a *job* reads as padding/title-inflation — exactly the kind of
+exaggeration to avoid. **Don't re-add it.**
 
-Bullets:
-```
-• Ship kernel & correctness fixes upstream to the LLM-serving ecosystem — 3 merged/landed
-  (PyTorch, vLLM) and 35 in review across SGLang, FlashInfer, NVIDIA TensorRT-LLM, Dynamo, torchao.
-• Specialise in consumer-Blackwell (SM120/SM121) enablement on a real RTX PRO 6000 96GB:
-  int8/FP8 GEMM dispatch, NVFP4 MoE scale handling, shared-memory-safe attention block sizing,
-  and multi-CTA top-k stream-hang fixes.
-• PyTorch [CUDA][NCCL]: found and fixed nccl.broadcast silently dropping its root argument
-  (landed in main, commit c3c33fd).
-• vLLM: tokenizer pickling survival, NVFP4 MoE per-expert scale validation, FP8 MoE+LoRA
-  routing to Marlin kernels.
-```
+The contributions still surface honestly elsewhere: the About paragraph, Featured (PR links), and
+— best of all — as bullets *under a real Experience entry* (e.g. his actual role), not as a fake standalone job.
 
 ---
 
