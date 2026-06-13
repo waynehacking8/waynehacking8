@@ -8,19 +8,25 @@ Aligned 1:1 with the GitHub profile so SEO keywords stack:
 ## 1. Headline  (≤220 chars) — LIVE
 
 ```
-GPU Performance Engineer | LLM Inference & CUDA / Tensor-Core Kernels | NVIDIA Blackwell (SM120) · vLLM · TensorRT-LLM | MS CS @ NTUST
+Machine Learning Engineer | LLM Inference & GPU Performance | CUDA / Tensor-Core kernels on NVIDIA Blackwell | vLLM · TensorRT-LLM | MS CS @ NTUST
 ```
 
-Convention (from real peers in this niche — Akshith Macharla, Visharad Ravi, Faizan Azeez):
-**`Role | focus areas | tech stack | degree`**. That's it.
+**Why this shape (the honest version — based on real headlines, not assumptions):**
 
-What practitioners do **NOT** put in a headline (and why the first draft was wrong):
-- ❌ contribution counts / status — "Merged into X", "35 PRs in review". Reads as a status report, not a person.
-- ❌ specific repo names as a list with merge state. Keep tech as *keywords* (vLLM, TensorRT-LLM), not a scoreboard.
-- ❌ hardware brags — "on real RTX PRO 6000" belongs in About, not the headline.
+Two different conventions exist, and which one is right depends on whether you have a brand-name employer:
 
-The SM120/Blackwell edge still appears — as a **searchable keyword**, which is how it reads as competence rather than boasting.
-Save the contribution counts (3 merged / 35 in review) for About, Featured and Experience, where context makes them credible.
+- **Senior/industry people** write *short* — `function @ company`: "Inference Optimization @ NVIDIA",
+  "ML Performance @ Nvidia", "Member of Technical Staff at OpenAI | ex-NVIDIA". No tech-stack list at all —
+  the **company name is the credential**, and recruiters hunt them by name.
+- **Job-seekers without that brand** (incl. strong MS students) write `Role | focus | tech | degree` —
+  because they need to be **found via keyword search**. Copying the seniors' minimalism would make you invisible.
+
+You're in the second group, so the headline is keyword-discoverable on purpose. What it still avoids
+(the part that read as junior in the first drafts):
+- ❌ contribution counts / status — "Merged into X", "35 PRs in review" reads as a scoreboard, not a person.
+- ❌ over-long jargon — keep tech as plain keywords (the niche specifics like SM120 live in About/Experience).
+
+Save the contribution counts (3 merged / 35 in review) for About, Featured and Experience, where context makes them land.
 
 ---
 
