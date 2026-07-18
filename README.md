@@ -43,27 +43,33 @@ dispatch paths most repos can't yet test because almost no one has the hardware.
 
 ## 🔧 Open-source contributions
 
-Across the LLM-inference stack — **3 merged/landed · 35 in review** — see the live
+Across the LLM-inference stack — **17 merged/landed · 60 in review** — see the live
 [**merged-PR feed**](https://github.com/pulls?q=is%3Apr+author%3Awaynehacking8+is%3Amerged+archived%3Afalse).
 
 **Merged / landed in main**
 
-| Project | PR | What it fixes |
-| --- | --- | --- |
-| **PyTorch** | [#187216](https://github.com/pytorch/pytorch/pull/187216) | `[CUDA][NCCL]` `nccl.broadcast` was dropping its `root` argument — landed in `main` (`c3c33fd`) |
-| **vLLM** | [#45460](https://github.com/vllm-project/vllm/pull/45460) | Tokenizer now survives pickling out of `maybe_make_thread_pool` |
-| **vLLM** | [#45376](https://github.com/vllm-project/vllm/pull/45376) | Streaming `message_start` event sets `type`/`role` explicitly |
+| Project | # | Representative merged work |
+| --- | :-: | --- |
+| **FlashInfer** | 7 | [SM120/121 multi-CTA radix top-k stream hang](https://github.com/flashinfer-ai/flashinfer/pull/3615) · [SM120 NVFP4 attention qk-correction layout / row-sum / lse](https://github.com/flashinfer-ai/flashinfer/pull/3838) · [MXFP8-aware MoE gemm profiler](https://github.com/flashinfer-ai/flashinfer/pull/3614) |
+| **vLLM** | 3 | [Tokenizer survives pickling](https://github.com/vllm-project/vllm/pull/45460) · [streaming `message_start` sets `type`/`role`](https://github.com/vllm-project/vllm/pull/45376) · [clear error for structured outputs on diffusion decoders](https://github.com/vllm-project/vllm/pull/45468) |
+| **LMDeploy** | 3 | [InternVL LoRA loading TypeError](https://github.com/InternLM/lmdeploy/pull/4684) · [double-counted `max_q_seqlen` in decode delta](https://github.com/InternLM/lmdeploy/pull/4685) · [builtin chat-template ImportError](https://github.com/InternLM/lmdeploy/pull/4690) |
+| **PyTorch** | 1 | [`nccl.broadcast` was dropping its `root` argument](https://github.com/pytorch/pytorch/pull/187216) — landed in `main` (`c3c33fd`) |
+| **Dynamo** | 1 | [KV-router cancels in-flight recovery on worker removal](https://github.com/ai-dynamo/dynamo/pull/10616) |
+| **compressed-tensors** | 1 | [Skip device-map entries with no local module in dispatch](https://github.com/vllm-project/compressed-tensors/pull/737) |
+| **torchao** | 1 | [PT2E/X86 plain-linear annotation fallback for reused `nn.Linear`](https://github.com/pytorch/ao/pull/4480) |
 
-**In review** — selected, grouped by project (counts are live PRs):
+**In review** — grouped by project (counts as of 2026-07-18):
 
 | Project | # | Representative work |
 | --- | :-: | --- |
-| **vLLM** | 10 | NVFP4 MoE per-expert scale validation · FP8 MoE+LoRA routed to Marlin · async-KV-load scheduling fix |
-| **SGLang** | 9 | SM120/SM121 dispatch for `int8_scaled_mm` & `fp8_blockwise_scaled_grouped_mm` · SM120 shared-mem-safe attention block size |
-| **FlashInfer** | 8 | Multi-CTA radix top-k stream hangs on SM120/121 · NVFP4 global-scale threading through the unified MoE API |
-| **NVIDIA TensorRT-LLM** | 3 | CuteDSL MoE ghost-token & global-index fixes · DeepSeek-V2-Lite `e_score_correction_bias` guard |
-| **Dynamo** | 3 | KV-router cancels in-flight recovery on worker removal · RTX PRO 6000 Blackwell GPU SKU |
-| **torchao** | 2 | PT2E/X86 annotation fallback for reused `nn.Linear`/`nn.Conv2d` with fusable post-ops |
+| **SGLang** | 17 | SM120/SM121 dispatch for `int8_scaled_mm` & `fp8_blockwise_scaled_grouped_mm` · SM120 shared-mem-safe attention block size |
+| **vLLM** | 15 | NVFP4 MoE per-expert scale validation · FP8 MoE+LoRA routed to Marlin · async-KV-load scheduling fix |
+| **FlashInfer** | 13 | NVFP4 global-scale threading through the unified MoE API · cuDNN full-sequence Q batch stride in batch prefill |
+| **Dynamo** | 5 | RTX PRO 6000 Blackwell GPU SKU · KV-router hardening follow-ups |
+| **NVIDIA TensorRT-LLM** | 4 | CuteDSL MoE ghost-token & global-index fixes · DeepSeek-V2-Lite `e_score_correction_bias` guard |
+| **NVIDIA CUTLASS** | 4 | SM120 grouped NVFP4 block-scaled GEMM in `cutlass_library` · CuTeDSL sub-byte `make_ptr` / `is_major` / uint-lowering fixes |
+| **torchao** | 1 | Reused-module fallback extended to `nn.Conv2d` (follow-up to merged #4480) |
+| **LMCache** | 1 | Clear `reqs_status` on async-lookup timeout to prevent recall KeyError |
 
 > Most SM120 work above is reproduced and validated on my own RTX PRO 6000 96GB Blackwell box.
 
