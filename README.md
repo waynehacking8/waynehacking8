@@ -1,40 +1,31 @@
-<h1 align="center">Hi, I'm Wayne 👋</h1>
-<p align="center">A GPU performance engineer based in Taiwan.</p>
+### Hi I'm Wayne 👋
 
-<p align="center">
-  <a href="https://waynehacking8.github.io/">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/wei-cheng-chiu">LinkedIn</a> ·
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Awaynehacking8+archived%3Afalse">My PRs</a> ·
-  <a href="https://x.com/WEICHENGCH52824">X / Twitter</a> ·
-  <a href="mailto:waynehacking8@gmail.com">Email</a>
-</p>
+A GPU performance engineer based in Taiwan.
 
-### 🛠️ Tech Stack
+## 🔭 Tech stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,pytorch,linux,bash,git,github,docker,vscode" />
-</p>
+![Tech stack](https://skillicons.dev/icons?i=c,cpp,python,pytorch,linux,bash,cmake,docker,kubernetes,git)
 
-### 📊 GitHub Stats
+### 🛠 Tools I use
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=waynehacking8&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waynehacking8&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+![Tools I use](https://skillicons.dev/icons?i=vim,vscode,git,github,githubactions,docker,linux,anaconda,cloudflare,obsidian)
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=waynehacking8&theme=tokyonight&hide_border=true" />
-</p>
+### ⏲️ This week I spent time on...
 
-### 🐍 Contribution Snake
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/waynehacking8/waynehacking8/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/waynehacking8/waynehacking8/output/github-contribution-grid-snake.svg" />
-    <img alt="contribution snake animation" src="https://raw.githubusercontent.com/waynehacking8/waynehacking8/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
+### 🚀 Contribution
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/waynehacking8/waynehacking8/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/waynehacking8/waynehacking8/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/waynehacking8/waynehacking8/output/github-contribution-grid-snake.svg">
+</picture>
+
+### 📚 Latest Posts
+
+- [Portfolio — waynehacking8.github.io](https://waynehacking8.github.io/)
 
 ---
 
@@ -102,5 +93,8 @@ Across the LLM-inference stack — **3 merged/landed · 35 in review** — see t
 
 <p align="center"><sub>
   Also known as Wayne Chiu / 邱偉誠 ·
-  <a href="https://waynehacking8.github.io/">waynehacking8.github.io</a>
+  <a href="https://waynehacking8.github.io/">waynehacking8.github.io</a> ·
+  <a href="https://www.linkedin.com/in/wei-cheng-chiu">LinkedIn</a> ·
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Awaynehacking8+archived%3Afalse">My PRs</a> ·
+  <a href="mailto:waynehacking8@gmail.com">Email</a>
 </sub></p>
