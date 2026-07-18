@@ -55,17 +55,29 @@ def fetch_calendar(user):
     return grid, weeks
 
 
-def perimeter_keyframes(weeks):
-    """Clockwise ring one pitch outside the grid; returns corner keyframes."""
-    x0, y0 = -PITCH, -PITCH
-    x1, y1 = weeks * PITCH, 7 * PITCH
-    corners = [(x0, y0), (x1, y0), (x1, y1), (x0, y1), (x0, y0)]
+def serpentine_keyframes(weeks):
+    """Boustrophedon sweep through the grid interior, then loop back outside.
+
+    The snake weaves right-to-left / left-to-right across every row of the
+    calendar (passing over cells without altering them), then returns to the
+    start along the outer gutter for a seamless loop.
+    """
+    right = (weeks - 1) * PITCH
+    corners = []
+    for row in range(7):
+        y = row * PITCH
+        if row % 2 == 0:
+            corners += [(0, y), (right, y)]
+        else:
+            corners += [(right, y), (0, y)]
+    # loop closure along the outer gutter back to the start
+    last_x = corners[-1][0]
+    exit_x = -PITCH if last_x == 0 else right + PITCH
+    corners += [(exit_x, 6 * PITCH), (exit_x, -PITCH), (0, -PITCH), (0, 0)]
     seg = [abs(a[0] - b[0]) + abs(a[1] - b[1]) for a, b in zip(corners, corners[1:])]
     total = sum(seg)
-    steps_total = total // PITCH
-    dur = int(steps_total * SPEED_MS)
-    pct, acc, frames = 0.0, 0, []
-    frames.append((0.0, corners[0]))
+    dur = int(total // PITCH * SPEED_MS)
+    acc, frames = 0, [(0.0, corners[0])]
     for s, c in zip(seg, corners[1:]):
         acc += s
         frames.append((round(acc / total * 100, 3), c))
@@ -73,7 +85,7 @@ def perimeter_keyframes(weeks):
 
 
 def build(user, suffix, palette, grid, weeks):
-    frames, dur = perimeter_keyframes(weeks)
+    frames, dur = serpentine_keyframes(weeks)
     kf = "".join(f"{p}%{{transform:translate({x}px,{y}px)}}" for p, (x, y) in frames)
     css = [
         f".c{{shape-rendering:geometricPrecision;fill:{palette['empty']};stroke:{palette['border']};stroke-width:1px}}",
