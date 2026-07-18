@@ -2,14 +2,6 @@
 
 A GPU performance engineer based in Taiwan.
 
-<a href="https://wayne-prs.vercel.app">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/kernel-queue-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/kernel-queue-light.svg">
-    <img alt="Kernel queue — live pull-request wall: 17 completed, 60 in flight. Making every FLOP count." src="assets/kernel-queue-dark.svg" width="830">
-  </picture>
-</a>
-
 ## 🔭 Tech stack
 
 ![Tech stack](https://skillicons.dev/icons?i=c,cpp,python,pytorch,linux,bash,cmake,docker,kubernetes,git)
