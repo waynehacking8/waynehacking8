@@ -30,6 +30,19 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      # keep contribution cells visible: strip the "eaten cell" fill animations so the
+      # snake slithers across the graph without erasing any commit squares
+      - name: disable cell-eating in the generated SVGs
+        run: |
+          python3 - <<'EOF'
+          import re, glob
+          for f in glob.glob('dist/*.svg'):
+              c = open(f, encoding='utf-8').read()
+              c = re.sub(r'(\.c\.c\w+\{fill:var\(--c\d+\));animation-name:c\w+', r'\1', c)
+              open(f, 'w', encoding='utf-8').write(c)
+              print(f, 'cell animations left:', len(re.findall(r'\.c\.c\w+\{[^}]*animation-name:', c)))
+          EOF
+
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
       - name: push github-contribution-grid-snake.svg to the output branch
