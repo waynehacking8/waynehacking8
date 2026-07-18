@@ -24,7 +24,7 @@ A GPU performance engineer based in Taiwan.
 
 ---
 
-MS Computer Science @ NTUST. I work at the intersection of GPU systems and ML — writing CUDA kernels,
+ I work at the intersection of GPU systems and ML — writing CUDA kernels,
 benchmarking inference stacks, and shipping fixes upstream to the LLM-serving ecosystem. My niche:
 **early consumer-Blackwell (SM120 / SM121) enablement, validated on real Blackwell workstation hardware** — the kernels and
 dispatch paths most repos can't yet test because almost no one has the hardware.
