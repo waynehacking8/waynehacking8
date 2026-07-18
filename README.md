@@ -1,16 +1,16 @@
-### Hi I'm Wayne 👋
+### Hi I'm Wayne 
 
 A GPU performance engineer based in Taiwan.
 
-## 🔭 Tech stack
+##  Tech stack
 
 ![Tech stack](https://skillicons.dev/icons?i=c,cpp,python,pytorch,linux,bash,cmake,docker,kubernetes,git)
 
-### 🛠 Tools I use
+###  Tools I use
 
 ![Tools I use](https://skillicons.dev/icons?i=vim,vscode,git,github,githubactions,docker,linux,anaconda,cloudflare,obsidian)
 
-### 🚀 Contribution
+###  Contribution
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/waynehacking8/waynehacking8/output/github-contribution-grid-snake-dark.svg?v=snk">
@@ -18,7 +18,7 @@ A GPU performance engineer based in Taiwan.
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/waynehacking8/waynehacking8/output/github-contribution-grid-snake.svg?v=snk">
 </picture>
 
-### 📚 Latest Posts
+###  Latest Posts
 
 - [Portfolio — waynehacking8.github.io](https://waynehacking8.github.io/)
 
@@ -29,7 +29,7 @@ benchmarking inference stacks, and shipping fixes upstream to the LLM-serving ec
 **early consumer-Blackwell (SM120 / SM121) enablement, validated on real Blackwell workstation hardware** — the kernels and
 dispatch paths most repos can't yet test because almost no one has the hardware.
 
-## 🔧 Open-source contributions
+##  Open-source contributions
 
 Across the LLM-inference stack — **17 merged/landed · 60 in review** — see the live
 [**PR wall → wayne-prs.vercel.app**](https://wayne-prs.vercel.app) (auto-updating, with [RSS](https://wayne-prs.vercel.app/feed.xml)).
