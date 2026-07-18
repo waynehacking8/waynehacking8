@@ -13,6 +13,13 @@ A GPU performance engineer based in Taiwan.
 ### ⏲️ This week I spent time on...
 
 <!--START_SECTION:waka-->
+
+```txt
+Total Time: 0 secs
+
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 ### 🚀 Contribution
