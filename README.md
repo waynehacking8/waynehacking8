@@ -32,7 +32,7 @@ dispatch paths most repos can't yet test because almost no one has the hardware.
 ## 🔧 Open-source contributions
 
 Across the LLM-inference stack — **17 merged/landed · 60 in review** — see the live
-[**merged-PR feed**](https://github.com/pulls?q=is%3Apr+author%3Awaynehacking8+is%3Amerged+archived%3Afalse).
+[**PR wall → wayne-prs.vercel.app**](https://wayne-prs.vercel.app) (auto-updating, with [RSS](https://wayne-prs.vercel.app/feed.xml)).
 
 **Merged / landed in main**
 
@@ -96,6 +96,6 @@ Across the LLM-inference stack — **17 merged/landed · 60 in review** — see 
   Also known as Wayne Chiu / 邱偉誠 ·
   <a href="https://waynehacking8.github.io/">waynehacking8.github.io</a> ·
   <a href="https://www.linkedin.com/in/wei-cheng-chiu">LinkedIn</a> ·
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Awaynehacking8+archived%3Afalse">My PRs</a> ·
+  <a href="https://wayne-prs.vercel.app">My PRs</a> ·
   <a href="mailto:waynehacking8@gmail.com">Email</a>
 </sub></p>
