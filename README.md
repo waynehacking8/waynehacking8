@@ -2,8 +2,8 @@
 
 **GPU performance engineer** in Taipei — *making every FLOP count*.
 
-[waynehacking8.github.io](https://waynehacking8.github.io/) ·
-[PR wall](https://wayne-prs.vercel.app) ·
+[wayne.is-a.dev](https://wayne.is-a.dev/) ·
+[PR wall](https://prs.wayne.is-a.dev) ·
 [LinkedIn](https://www.linkedin.com/in/wei-cheng-chiu) ·
 [X @itswaynechiu](https://x.com/itswaynechiu)
 
@@ -25,10 +25,10 @@
 
 ###  Latest Posts
 
-- [Notes — TensorRT-LLM + Triton serving](https://waynehacking8.github.io/blog/notes-trtllm-triton-serving/)
-- [Tensor-parallel & the NVLink wall](https://waynehacking8.github.io/blog/nccl-nvlink-bandwidth/)
-- [RAG groundedness: 0% vs 50%](https://waynehacking8.github.io/blog/rag-groundedness-guardrail/)
-- [Notes — CUDA Tensor Core GEMM (WMMA)](https://waynehacking8.github.io/blog/notes-cuda-tensor-core-gemm/)
+- [Notes — TensorRT-LLM + Triton serving](https://wayne.is-a.dev/blog/notes-trtllm-triton-serving/)
+- [Tensor-parallel & the NVLink wall](https://wayne.is-a.dev/blog/nccl-nvlink-bandwidth/)
+- [RAG groundedness: 0% vs 50%](https://wayne.is-a.dev/blog/rag-groundedness-guardrail/)
+- [Notes — CUDA Tensor Core GEMM (WMMA)](https://wayne.is-a.dev/blog/notes-cuda-tensor-core-gemm/)
 
 ---
 
@@ -40,7 +40,7 @@ dispatch paths most repos can't yet test because almost no one has the hardware.
 ##  Open-source contributions
 
 Across the LLM-inference stack — **17 merged/landed · 60 in review** — see the live
-[**PR wall → wayne-prs.vercel.app**](https://wayne-prs.vercel.app) (auto-updating, with [RSS](https://wayne-prs.vercel.app/feed.xml)).
+[**PR wall → prs.wayne.is-a.dev**](https://prs.wayne.is-a.dev) (auto-updating, with [RSS](https://prs.wayne.is-a.dev/feed.xml)).
 
 **Merged / landed in main**
 
@@ -102,9 +102,10 @@ Across the LLM-inference stack — **17 merged/landed · 60 in review** — see 
 
 <p align="center"><sub>
   Also known as Wayne Chiu / 邱偉誠 ·
-  <a href="https://waynehacking8.github.io/">waynehacking8.github.io</a> ·
+  <a href="https://wayne.is-a.dev/">wayne.is-a.dev</a> ·
   <a href="https://www.linkedin.com/in/wei-cheng-chiu">LinkedIn</a> ·
-  <a href="https://wayne-prs.vercel.app">My PRs</a> ·
+  <a href="https://prs.wayne.is-a.dev">My PRs</a> ·
   <a href="https://x.com/itswaynechiu">X</a> ·
   <a href="mailto:waynehacking8@gmail.com">Email</a>
 </sub></p>
+
