@@ -9,11 +9,42 @@
 
 ##  Tech stack
 
-![Tech stack](https://skillicons.dev/icons?i=c,cpp,python,pytorch,linux,bash,cmake,docker,kubernetes,git)
+**GPU & kernels**<br>
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![CUTLASS](https://img.shields.io/badge/CUTLASS-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Tensor Cores / PTX](https://img.shields.io/badge/Tensor_Cores_%2F_PTX-44566c?style=flat-square)
+![NVFP4 / FP8](https://img.shields.io/badge/NVFP4_%2F_FP8_quantization-44566c?style=flat-square)
+
+**Inference serving**<br>
+![vLLM](https://img.shields.io/badge/vLLM-3268b0?style=flat-square)
+![SGLang](https://img.shields.io/badge/SGLang-d1531f?style=flat-square)
+![FlashInfer](https://img.shields.io/badge/FlashInfer-7d5bd0?style=flat-square)
+![TensorRT-LLM](https://img.shields.io/badge/TensorRT--LLM-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Dynamo](https://img.shields.io/badge/Dynamo-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![NCCL](https://img.shields.io/badge/NCCL-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Triton Inference Server](https://img.shields.io/badge/Triton_Inference_Server-76B900?style=flat-square&logo=nvidia&logoColor=white)
+
+**Languages & ML**<br>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Federated Learning / DP](https://img.shields.io/badge/Federated_Learning_%2F_DP-57810a?style=flat-square)
+
+**Systems**<br>
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ###  Tools I use
 
-![Tools I use](https://skillicons.dev/icons?i=vim,vscode,git,github,githubactions,docker,linux,anaconda,cloudflare,obsidian)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white)
+![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white)
+![Nsight](https://img.shields.io/badge/Nsight_Compute_%2F_Systems-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
 ###  Contribution
 
@@ -92,11 +123,6 @@ Across the LLM-inference stack — **17 merged/landed · 60 in review** — see 
 
 - **SelGrad** — selective-gradient defense for privacy-preserving ML. Under review, *IEEE TDSC*.
 - Federated learning & differential privacy — robustness and personalization under Non-IID data.
-
-## Stack
-
-`CUDA` · `Tensor Cores` · `PTX` · `SM120 / Blackwell` · `Python` · `PyTorch` · `TensorRT-LLM` · `vLLM` · `SGLang` ·
-`FlashInfer` · `Triton Inference Server` · `NCCL` · `NVFP4 / FP8 quantization` · `Differential Privacy` · `Federated Learning`
 
 ---
 
