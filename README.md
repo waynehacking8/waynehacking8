@@ -1,6 +1,7 @@
 ### Hi I'm Wayne 
 
-**GPU performance engineer** in Taipei — *making every FLOP count*.
+**Field Application Engineer @ Taiwan AI Labs**
+**Open Source GPU Performance Engineer** — *Making every FLOP count.*
 
 [wayne.is-a.dev](https://wayne.is-a.dev/) ·
 [PR wall](https://prs.wayne.is-a.dev) ·
