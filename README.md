@@ -1,11 +1,13 @@
-# Hi, I'm Wayne
+# Wei Cheng (Wayne) Chiu — AI Solutions Architecture & NVIDIA GPU Systems
 
 **Field Application Engineer @ [Taiwan AILabs](https://ailabs.tw/)**
 
-I deploy on-premises LLM systems into customer environments and contribute fixes
-across the GPU-inference stack. My work spans Linux/Kubernetes operations, GPU
-serving, customer-facing troubleshooting, CUDA kernels, and early Blackwell
-(SM120/NVFP4) enablement.
+I am a Field Application Engineer targeting customer-facing **AI Solutions
+Architect** roles, with hands-on work across **Generative AI (GenAI), LLM
+systems, and NVIDIA GPU computing**. I translate customer requirements into
+production-ready, on-premises deployments on Linux, Kubernetes, PyTorch, CUDA,
+TensorRT-LLM, vLLM, and Triton—from proof of concept (PoC) through
+troubleshooting, acceptance, and handover.
 
 [Portfolio](https://wayne.is-a.dev/) ·
 [PR wall](https://prs.wayne.is-a.dev) ·
@@ -14,8 +16,8 @@ serving, customer-facing troubleshooting, CUDA kernels, and early Blackwell
 
 ## What I work on
 
-- **Customer deployment:** turn site constraints into deployment plans, acceptance
-  criteria, and production handover for on-premises LLM systems.
+- **AI solutions architecture:** turn customer requirements and site constraints
+  into GenAI/LLM deployment plans, acceptance criteria, and production handover.
 - **GPU inference:** benchmark and debug serving, communication, quantization, and
   kernel paths across vLLM, TensorRT-LLM, SGLang, Triton, Dynamo, and FlashInfer.
 - **Upstream correctness:** 17 merged/landed changes, with the complete live record
