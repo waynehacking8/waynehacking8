@@ -1,8 +1,8 @@
-# Wei Cheng (Wayne) Chiu — AI Solutions Architecture & NVIDIA GPU Systems
+# Wei Cheng (Wayne) Chiu
 
 **Field Application Engineer @ [Taiwan AILabs](https://ailabs.tw/)**
 
-I am a Field Application Engineer targeting customer-facing **AI Solutions
+I am a Field Application Engineer targeting customer, facing **AI Solutions
 Architect** roles, with hands-on work across **Generative AI (GenAI), LLM
 systems, and NVIDIA GPU computing**. I translate customer requirements into
 production-ready, on-premises deployments on Linux, Kubernetes, PyTorch, CUDA,
