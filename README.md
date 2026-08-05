@@ -1,27 +1,29 @@
 # Wei Cheng (Wayne) Chiu
 
-**Field Application Engineer @ [Taiwan AILabs](https://ailabs.tw/)**
+**LLM Infrastructure · GPU Inference · Solutions Architecture**
 
-I am a Field Application Engineer targeting customer-facing **AI Solutions
-Architect** roles, with hands-on work across **Generative AI (GenAI), LLM
-systems, and NVIDIA GPU computing**. I translate customer requirements into
-production-ready, on-premises deployments on Linux, Kubernetes, PyTorch, CUDA,
-TensorRT-LLM, vLLM, and Triton—from proof of concept (PoC) through
-troubleshooting, acceptance, and handover.
+Upstream contributions across the LLM-inference stack, paired with production
+work that turns deployment requirements into reliable, on-premises GenAI
+systems. Focused on model serving, GPU infrastructure, and solution
+architecture across Linux, Kubernetes, PyTorch, CUDA, TensorRT-LLM, vLLM, and
+Triton.
 
 [Portfolio](https://wayne.is-a.dev/) ·
 [PR wall](https://prs.wayne.is-a.dev) ·
 [LinkedIn](https://www.linkedin.com/in/wei-cheng-chiu) ·
 [CV](https://wayne.is-a.dev/cv.pdf)
 
-## What I work on
+## Focus
 
-- **AI solutions architecture:** turn customer requirements and site constraints
-  into GenAI/LLM deployment plans, acceptance criteria, and production handover.
-- **GPU inference:** benchmark and debug serving, communication, quantization, and
-  kernel paths across vLLM, TensorRT-LLM, SGLang, Triton, Dynamo, and FlashInfer.
-- **Upstream correctness:** 18 merged/landed changes, with the complete live record
-  on [prs.wayne.is-a.dev](https://prs.wayne.is-a.dev).
+- **Upstream inference work:** correctness and performance across FlashInfer,
+  vLLM, PyTorch, Dynamo, and the surrounding serving stack. The complete live
+  record is on [prs.wayne.is-a.dev](https://prs.wayne.is-a.dev).
+- **GPU infrastructure:** model serving, distributed communication, quantization,
+  and kernel paths across vLLM, TensorRT-LLM, SGLang, Triton, Dynamo, and
+  FlashInfer.
+- **Solution architecture:** deployment constraints, preflight validation,
+  troubleshooting, acceptance, and production handover for on-premises LLM
+  systems.
 
 ## Representative merged work
 
