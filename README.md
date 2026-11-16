@@ -5,5 +5,4 @@
 
 vLLM: [merged PRs](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged+author%3Awaynehacking8) ·
 [reviews](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+reviewed-by%3Awaynehacking8+-author%3Awaynehacking8)  
-FlashInfer: [merged PRs](https://github.com/flashinfer-ai/flashinfer/pulls?q=is%3Apr+is%3Amerged+author%3Awaynehacking8) ·
-[reviews](https://github.com/flashinfer-ai/flashinfer/pulls?q=is%3Apr+reviewed-by%3Awaynehacking8+-author%3Awaynehacking8)
+FlashInfer: [merged PRs](https://github.com/flashinfer-ai/flashinfer/pulls?q=is%3Apr+is%3Amerged+author%3Awaynehacking8)
